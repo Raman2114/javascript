@@ -8,7 +8,7 @@ const obj3={obj1,obj2}
 //const obj4= Object.assign(obj1,obj2);  //assign(target, source) {} is taken as target in some cases.  const obj4= Object.assign({},obj1,obj2);
 
 const obj4 ={...obj1,...obj2}
-//console.log(obj4);
+console.log(obj4);
 
 const tinderUser=new Object();
 tinderUser.id=123;
